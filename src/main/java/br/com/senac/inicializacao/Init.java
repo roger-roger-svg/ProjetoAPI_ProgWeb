@@ -33,9 +33,9 @@ public class Init implements ApplicationListener<ContextRefreshedEvent> {
 		alunoService.salvar(aluno1);
 		
 		Professor prof1 = new Professor();
-		prof1.setEmail("jorge@gmail.com");
-		prof1.setNome("Jorge");
-		prof1.setSobreNome("Costa");
+		prof1.setEmail("Arnaldo@gmail.com");
+		prof1.setNome("Arnaldo");
+		prof1.setSobreNome("Filho");
 		profService.salvar(prof1);
 		
 //		Aluno aluno2 = new Aluno();
