@@ -26,17 +26,17 @@ public class Init implements ApplicationListener<ContextRefreshedEvent> {
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		
 		
-		Aluno aluno1 = new Aluno();
-		aluno1.setEmail("lucas@gmail.com");
-		aluno1.setNome("Lucas");
-		aluno1.setSobreNome("Silva");
-		alunoService.salvar(aluno1);
-		
-		Professor prof1 = new Professor();
-		prof1.setEmail("Arnaldo@gmail.com");
-		prof1.setNome("Arnaldo");
-		prof1.setSobreNome("Filho");
-		profService.salvar(prof1);
+//		Aluno aluno1 = new Aluno();
+//		aluno1.setEmail("lucas@gmail.com");
+//		aluno1.setNome("Lucas");
+//		aluno1.setSobreNome("Silva");
+//		alunoService.salvar(aluno1);
+//		
+//		Professor prof1 = new Professor();
+//		prof1.setEmail("Arnaldo@gmail.com");
+//		prof1.setNome("Arnaldo");
+//		prof1.setSobreNome("Filho");
+//		profService.salvar(prof1);
 		
 //		Aluno aluno2 = new Aluno();
 //		aluno2.setEmail("gabriel@gmail.com");
@@ -51,12 +51,12 @@ public class Init implements ApplicationListener<ContextRefreshedEvent> {
 //		alunoService.salvar(aluno3);
 //		
 		
-		List<Aluno> listaAlunos =  alunoService.buscarTodosAlunos();
-		listaAlunos.forEach(aluno -> System.out.println(aluno.getNome()));
-		
-		List<Professor> listaProf = profService.buscarTodosProf();
-		listaProf.forEach(prof -> System.out.println(prof.getNome()));
-		
+//		List<Aluno> listaAlunos =  alunoService.buscarTodosAlunos();
+//		listaAlunos.forEach(aluno -> System.out.println(aluno.getNome()));
+//		
+//		List<Professor> listaProf = profService.buscarTodosProf();
+//		listaProf.forEach(prof -> System.out.println(prof.getNome()));
+//		
 		
 //		Boolean flag = alunoService.deleteAluno(1);
 //		System.out.println(flag);
